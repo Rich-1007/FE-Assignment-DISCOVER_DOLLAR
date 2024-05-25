@@ -709,7 +709,7 @@ export const Herodata = [
   },
   {
     img: pices2,
-    title: "Best Selling Mobile",
+    title: "Best Selling Accessories",
     price: "From ₹499",
   },
   {

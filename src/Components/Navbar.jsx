@@ -3,6 +3,8 @@ import { BsCart3 } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import categoriesData from "../../data/allCategories.json";
 
+import logo from"/assets/Icons/Flipkart-Logo.png"
+
 const Navbar = () => {
   const subCats = [];
 
@@ -36,8 +38,8 @@ const Navbar = () => {
       <div className=" flex flex-row w-full h-14 sm:px-20 py-2 bg-white sm:mb-2 justify-between px-2">
         <img
           className="h-full  flex items-center justify-center cursor-pointer"
-          src="src/assets/Icons/Flipkart-Logo.png"
-          alt=""
+          src={logo}
+          alt="Flipkart"
         />
 
         <div className="hidden sm:block w-4/6 relative">
