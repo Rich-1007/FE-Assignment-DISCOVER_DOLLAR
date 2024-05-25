@@ -20,14 +20,11 @@ import download9 from "../assets/Icons/download-9.jpg";
 // import NestedSubcategories from "./NestedSubcategories";
 import SubcategoriesItem from "./SubcategoriesItem";
 
-
 const Categoryitem = ({ item, index }) => {
-  
-  
-//   "When I deployed my app on Netlify, the images were not showing up because I could't import them in "data.json" .
-// I had to update my code to import all the images and map them again in the components.
-// It worked fine on my local machine, but there was an issue after deploying.
-// So i have to code this bellow imgdata."
+  //   "When I deployed my app on Netlify, the images were not showing up because I could't import them in "data.json" .
+  // I had to update my code to import all the images and map them again in the components.
+  // It worked fine on my local machine, but there was an issue after deploying.
+  // So i have to code this bellow imgdata."
   const imgdata = [
     download1,
     download2,
@@ -51,7 +48,7 @@ const Categoryitem = ({ item, index }) => {
       <div className="flex justify-center">
         <img src={imgdata[index]} className=" w-14 object-contain" alt="" />
       </div>
-      <div className="text-base text-black text-center  flex flex-row justify-center items-center gap-1">
+      <div className="sm:text-base text-black text-center text-sm flex flex-row justify-center items-center gap-1">
         {item.title}
 
         {item.subcategories &&
@@ -65,7 +62,7 @@ const Categoryitem = ({ item, index }) => {
           ))}
       </div>
 
-      <div className="absolute flex bg-white text-gray-600  shadow-2xl  text-xs py-5  flex-col rounded-xl ">
+      <div className="absolute  flex bg-white text-gray-600 z-10  shadow-2xl  text-xs py-5  flex-col rounded-xl ">
         {isDown &&
           item.subcategories &&
           item.subcategories.map((item, index) => (

@@ -54,7 +54,7 @@ const Navbar = () => {
           />
 
           {showSearchResults && searchedCategories.length > 0 && (
-            <div className="absolute bg-white z-10 left-0 right-0 p-2 border rounded-xl space-y-2">
+            <div className=" absolute bg-white z-10 left-0 right-0 p-2 border rounded-xl space-y-2">
               {searchedCategories.map((item, index) => {
                 return (
                   <div key={index}>
