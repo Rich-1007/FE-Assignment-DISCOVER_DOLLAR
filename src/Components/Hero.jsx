@@ -8,7 +8,7 @@ import { Herodata } from "../../data";
 const Hero = () => {
   return (
     <>
-      <div className="sm:mx-4 bg-white flex flex-col my-3">
+      <div className="sm:mx-0 bg-white flex flex-col my-3">
         <div className="  flex flex-row justify-between items-center px-4 py-3">
           <span className="text-xl font-semibold">Best of Electronics</span>
           <IoIosArrowDroprightCircle size={28} className="text-blue-700 cursor-pointer" />
