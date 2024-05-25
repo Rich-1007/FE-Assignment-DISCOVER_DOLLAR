@@ -3,7 +3,7 @@ export const categoriesData = [
   { title: "Mobiles", icon: "src/assets/Icons/download-2.jpg" },
   {
     title: "Fashion",
-    icon: "src/assets/Icons/download-3.jpg",
+    icon: "https://res.cloudinary.com/dpcnehb4a/image/upload/v1716625568/demo/sqa1auvpr1ryornulaag.jpg",
     subcategories: [
       {
         title: "Men's Top Wear",
