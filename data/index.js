@@ -1,6 +1,6 @@
 export const categoriesData = [
-  { title: "Grocery", icon: "src/assets/Icons/download-1.jpg" },
-  { title: "Mobiles", icon: "src/assets/Icons/download-2.jpg" },
+  { title: "Grocery", icon: "/assets/Icons/download-1.jpg" },
+  { title: "Mobiles", icon: "/assets/Icons/download-2.jpg" },
   {
     title: "Fashion",
     icon: "https://res.cloudinary.com/dpcnehb4a/image/upload/v1716625568/demo/sqa1auvpr1ryornulaag.jpg",
