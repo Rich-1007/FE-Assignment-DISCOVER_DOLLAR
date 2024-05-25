@@ -9,9 +9,9 @@ const Home = () => {
     <>
       <div className="bg-gray-200 h-screen w-screen">
 
-        {/* <Navbar />
+        <Navbar />
         <Categories />
-        <Slider /> */}
+        <Slider />
 
         <Hero />
       </div>
