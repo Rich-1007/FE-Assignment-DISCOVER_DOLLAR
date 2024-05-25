@@ -2,6 +2,9 @@ import React from "react";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { Herodata } from "../../data";
 
+
+
+
 const Hero = () => {
   return (
     <>

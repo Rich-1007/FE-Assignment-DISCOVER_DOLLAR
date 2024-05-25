@@ -31,7 +31,6 @@ const Categoryitem = ({ item, index }) => {
     download8,
     download9,
     download1,
-
   ];
   const [isDown, setIsDown] = useState(false);
   //   console.log(item);
