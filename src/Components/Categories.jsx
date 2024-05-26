@@ -1,7 +1,6 @@
 import React from "react";
 import data from "../../data/allCategories.json"
 
-import { categoriesData } from "../../data";
 import Categoryitem from "./Categoryitem";
 
 const Categories = () => {
