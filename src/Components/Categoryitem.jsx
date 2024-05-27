@@ -5,15 +5,15 @@ import {
   IoChevronUpSharp,
 } from "react-icons/io5";
 
-import download1 from "../assets/Icons/download-1.jpg";
-import download2 from "../assets/Icons/download-2.jpg";
-import download3 from "../assets/Icons/download-3.jpg";
-import download4 from "../assets/Icons/download-4.jpg";
-import download5 from "../assets/Icons/download-5.jpg";
-import download6 from "../assets/Icons/download-6.jpg";
-import download7 from "../assets/Icons/download-7.jpg";
-import download8 from "../assets/Icons/download-8.jpg";
-import download9 from "../assets/Icons/download-9.jpg";
+import download1 from "../../public/assets/Icons/download-1.jpg";
+import download2 from "../../public/assets/Icons/download-2.jpg";
+import download3 from "../../public/assets/Icons/download-3.jpg";
+import download4 from "../../public/assets/Icons/download-4.jpg";
+import download5 from "../../public/assets/Icons/download-5.jpg";
+import download6 from "../../public/assets/Icons/download-6.jpg";
+import download7 from "../../public/assets/Icons/download-7.jpg";
+import download8 from "../../public/assets/Icons/download-8.jpg";
+import download9 from "../../public/assets/Icons/download-9.jpg";
 
 // import download from "../assets/Icons/download.jpg"
 
