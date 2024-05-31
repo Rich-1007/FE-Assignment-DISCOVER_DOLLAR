@@ -3,7 +3,7 @@ import { BsCart3 } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import categoriesData from "../../data/allCategories.json";
 
-import logo from"/assets/Icons/Flipkart-Logo.png"
+import logo from "/assets/Icons/Flipkart-Logo.png";
 
 const Navbar = () => {
   const subCats = [];
@@ -29,7 +29,9 @@ const Navbar = () => {
       return item?.title.toLowerCase().includes(searchText.toLowerCase());
     });
 
-    setSearchedCategories([...matchedCategories, ...matchedSubCategories].slice(0 ,10));
+    setSearchedCategories(
+      [...matchedCategories, ...matchedSubCategories].slice(0, 10)
+    );
   };
 
   const handleBlur = () => {};
