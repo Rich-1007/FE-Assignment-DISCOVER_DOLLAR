@@ -6,9 +6,6 @@ const Hero = () => {
   return (
     <>
       <div className="sm:mx-0 bg-white flex flex-col mt-5  ">
-
-
-
         <div className="  flex flex-row justify-between items-center px-4 py-3 ">
           <span className="text-xl font-semibold">Best of Electronics</span>
           <IoIosArrowDroprightCircle
@@ -30,14 +27,6 @@ const Hero = () => {
             </div>
           ))}
         </div>
-
-
-
-
-
-
-
-        
       </div>
     </>
   );
