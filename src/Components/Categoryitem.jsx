@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  IoChevronDown,
-  IoChevronForwardOutline,
-  IoChevronUpSharp,
-} from "react-icons/io5";
+import { IoChevronDown, IoChevronForwardOutline } from "react-icons/io5";
 
 import download1 from "../../public/assets/Icons/download-1.jpg";
 import download2 from "../../public/assets/Icons/download-2.jpg";
@@ -15,9 +11,6 @@ import download7 from "../../public/assets/Icons/download-7.jpg";
 import download8 from "../../public/assets/Icons/download-8.jpg";
 import download9 from "../../public/assets/Icons/download-9.jpg";
 
-// import download from "../assets/Icons/download.jpg"
-
-// import NestedSubcategories from "./NestedSubcategories";
 import SubcategoriesItem from "./SubcategoriesItem";
 
 const Categoryitem = ({ item, index }) => {
