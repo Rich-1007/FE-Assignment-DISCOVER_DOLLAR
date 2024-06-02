@@ -7,7 +7,7 @@ import Slider from "../Components/Slider ";
 const Home = () => {
   return (
     <>
-      <div className="bg-gray-200 h-screen w-screen">
+      <div className="bg-gray-200 ">
 
         <Navbar />
         <Categories />
