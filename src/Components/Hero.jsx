@@ -14,7 +14,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="flex sm:flex-row flex-col justify-between px-4 py-4">
+        <div className=" flex sm:flex-row flex-col justify-between px-4 py-12">
           {Herodata.map((item) => (
             <div className=" border-gray-300 m-2 sm:m-0 text-center cursor-pointer rounded-md border sm:w-2/12 flex flex-col  h-64 justify-center items-center group">
               <img
