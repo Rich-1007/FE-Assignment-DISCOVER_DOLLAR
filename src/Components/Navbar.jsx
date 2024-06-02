@@ -68,7 +68,7 @@ const Navbar = () => {
           )}
         </div>
 
-        <div className=" flex flow-row justify-between items-center text-gray-500 sm:gap-5 gap-3   cursor-pointer">
+        <div className=" flex flow-row justify-between items-center text-gray-500 sm:gap-5 gap-3 cursor-pointer">
           <CgProfile size={23} className="" />
           <div className="flex gap-1 justify-center items-center">
             <BsCart3 size={20} />
@@ -77,7 +77,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="w-full relative bg-white h-10  px-4 sm:hidden">
+      <div className="w-full relative bg-white h-10 px-4 sm:hidden">
         <input
           type="text"
           value={inputText}
