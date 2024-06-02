@@ -1,34 +1,14 @@
 import React, { useState } from "react";
 import { IoChevronDown, IoChevronForwardOutline } from "react-icons/io5";
 
-import download1 from "../../public/assets/Icons/download-1.jpg";
-import download2 from "../../public/assets/Icons/download-2.jpg";
-import download3 from "../../public/assets/Icons/download-3.jpg";
-import download4 from "../../public/assets/Icons/download-4.jpg";
-import download5 from "../../public/assets/Icons/download-5.jpg";
-import download6 from "../../public/assets/Icons/download-6.jpg";
-import download7 from "../../public/assets/Icons/download-7.jpg";
-import download8 from "../../public/assets/Icons/download-8.jpg";
-import download9 from "../../public/assets/Icons/download-9.jpg";
+
 
 import SubcategoriesItem from "./SubcategoriesItem";
+import { imgdata } from "../../data";
 
 const Categoryitem = ({ item, index }) => {
-  //   "When I deployed my app on Netlify, the images were not showing up because I could't import them in "data.json" .
-  // I had to update my code to import all the images and map them again in the components.
-  // It worked fine on my local machine, but there was an issue after deploying.
-  // So i have to code this bellow imgdata."
-  const imgdata = [
-    download1,
-    download2,
-    download3,
-    download4,
-    download5,
-    download6,
-    download7,
-    download8,
-    download9,
-  ];
+  
+  
   const [isDown, setIsDown] = useState(false);
   //   console.log(item);
 
